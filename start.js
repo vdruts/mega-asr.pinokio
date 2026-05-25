@@ -7,10 +7,10 @@ module.exports = {
         venv: "env",
         path: "app",
         message: [
-          "python webui.py",
+          "streamlit run webui.py --server.address 127.0.0.1 --server.port {{port}} --server.headless true",
         ],
         on: [{
-          event: "/(http:\\/\\/[0-9.:]+)/",
+          event: "/(http:\\/\\/\\S+)/",
           done: true
         }]
       }
