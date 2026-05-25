@@ -1,0 +1,6 @@
+{
+  "title": "Mega-ASR",
+  "description": "Robust automatic speech recognition for challenging real-world audio. Handles noise, far-field, echo, reverberation, and more using a foundation model trained on 2.6M samples across 54 acoustic scenarios.",
+  "icon": "icon.png",
+  "gpu": ["nvidia", "apple"]
+}
